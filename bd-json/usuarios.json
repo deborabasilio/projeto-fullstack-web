@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     nome: 'admin',
     sobrenome: 'admin',
@@ -5,4 +6,13 @@
     email: 'admin@admin.com',
     senha: 'admin',
     imagem: null
+=======
+{
+    nome: 'admin',
+    sobrenome: 'admin',
+    apelido: 'admin',
+    email: 'admin@admin.com',
+    senha: 'admin',
+    imagem: null
+>>>>>>> a71e39c93016b6b514dd8da6c8cc5a87aa1dd74e
 }
