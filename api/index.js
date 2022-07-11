@@ -8,8 +8,7 @@ var mongoose = require('mongoose');
 mongoose.Promisse = global.Promisse;
 
 // Passando url e dizendo que todo usuário do Mongo tem acesso
-mongoose.connect('mongodb://localhost:27017/projeto-fullstack-web',
-    {useMongoClient: true})
+mongoose.connect('mongodb://localhost:27017/projeto-fullstack-web')// {useMongoClient: true}
     .then(() => {
         console.log('Conexão realizada com sucesso!')
     })
