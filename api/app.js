@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use strict'
 
 var express = require('express');
@@ -28,7 +28,6 @@ app.get('/testing', (req, res) => {
 });
 
 // Exportações
-=======
 'use strict'
 
 var express = require('express');
@@ -58,5 +57,4 @@ app.get('/testing', (req, res) => {
 });
 
 // Exportações
->>>>>>> a71e39c93016b6b514dd8da6c8cc5a87aa1dd74e
 module.exports = app;
